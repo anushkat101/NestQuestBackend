@@ -6,18 +6,22 @@
         "tax_brackets": [
           {
             "income_range": "0-12000",
+            "base": 0,
             "rate": 3.078
           },
           {
             "income_range": "12000-25000",
+            "base": 369,
             "rate": 3.762
           },
           {
             "income_range": "25000-50000",
+            "base": 858,
             "rate": 3.819
           },
           {
             "income_range": "50000+",
+            "base": 1813,
             "rate": 3.876
           }
         ],
@@ -29,31 +33,28 @@
         "tax_brackets": [
           {
             "income_range": "0-10000",
+            "base": 0,
             "rate": 4.0
           },
           {
             "income_range": "10000-40000",
+            "base": 400,
             "rate": 6
           },
           {
             "income_range": "$40000-60000",
+            "base": 2200, 
             "rate": 6.5
           },
           {
             "income_range": "60000-250000",
+            "base": 3500,
             "rate": 8.5
           },
           {
             "income_range": "250000-500000",
+            "base": 19650,
             "rate": 9.25
-          },
-          {
-            "income_range": "500000-1000000",
-            "rate": 9.75
-          },
-          {
-            "income_range": "1000000+",
-            "rate": 10.75
           }
         ],
         "supplemental": "0.85"
@@ -112,6 +113,72 @@
         "tax_brackets": "NA",
         "supplemental": 1.4
       }
+    ],
+
+    "states": [
+      {
+        "state": "New York",
+        "supplemental_tax": "",
+        "tax_brackets": [
+          {
+            "income_range": "0-8500",
+            "base": 0,
+            "rate": 4
+          },
+          {
+            "income_range": "8501-11700",
+            "base": 340, 
+            "rate": 4.5
+          },
+          {
+            "income_range": "11701-13900",
+            "base": 484,
+            "rate": 5.25
+          },
+          {
+            "income_range": "13901-80650",
+            "base": 500,
+            "rate": 5.5
+          },
+          {
+            "income_range": "80651-215400",
+            "base": 4271,
+            "rate": 6
+          }
+          
+        ]
+      },
+      {
+        "state": "California",
+        "income_tax": "2% - 13.30%",
+        "supplemental_tax": "1% - 12.3%"
+      },
+      {
+        "state": "Texas",
+        "income_tax": "none",
+        "supplemental_tax": "none"
+      },
+      {
+        "state": "Illinois",
+        "income_tax": "4.95%",
+        "supplemental_tax": "4.95%"
+      },
+      {
+        "state": "Massachusetts",
+        "income_tax": "5% - 9%",
+        "supplemental_tax": "5.00%"
+      },
+      {
+        "state": "Colorado",
+        "income_tax": "4.40%",
+        "supplemental_tax": "4.40%"
+      },
+      {
+        "state": "Georgia",
+        "income_tax": "5.49%",
+        "supplemental_tax": "5.49%"
+      }
     ]
   }
+
   
