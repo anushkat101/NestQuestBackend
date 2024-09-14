@@ -13,7 +13,7 @@
             "rate": 3.762
           },
           {
-            "income_range": "$25000-50000",
+            "income_range": "25000-50000",
             "rate": 3.819
           },
           {
@@ -54,7 +54,7 @@
           {
             "income_range": "1000000+",
             "rate": 10.75
-          },
+          }
         ],
         "supplemental": "0.85"
       },
@@ -63,49 +63,49 @@
         "state": "Illinois",
         "tax_brackets": "NA",
         "supplemental": 4.95
-      }
+      },
       {
         "city": "San Francisco",
         "state": "California",
         "tax_brackets": "NA",
         "supplemental": 1.2
-      }
+      },
       {
         "city": "Chicago",
         "state": "Illinois",
         "tax_brackets": "NA",
         "supplemental": 4.95
-      }
+      },
       {
         "city": "Austin",
         "state": "Texas",
         "tax_brackets": "NA",
         "supplemental": 2.0
-      }
+      },
       {
         "city": "Chicago",
         "state": "Illinois",
         "tax_brackets": "NA",
         "supplemental": 4.95
-      }
+      },
       {
         "city": "Boston",
         "state": "Massachussetts",
         "tax_brackets": "NA",
         "supplemental": 1.074
-      }
+      },
       {
         "city": "Los Angeles",
         "state": "California",
         "tax_brackets": "NA",
         "supplemental": 1.2
-      }
+      },
       {
         "city": "Denver",
         "state": "Colorado",
         "tax_brackets": "NA",
         "supplemental": 0.56
-      }
+      },
       {
         "city": "Atlanta",
         "state": "Georgia",
