@@ -1,0 +1,68 @@
+{
+    "cities": [
+      {
+        "city": "New York City",
+        "state": "New York",
+        "tax_brackets": [
+          {
+            "income_range": "0-12000",
+            "rate": 3.078
+          },
+          {
+            "income_range": "12000-25000",
+            "rate": 3.762
+          },
+          {
+            "income_range": "$25000-50000",
+            "rate": 3.819
+          },
+          {
+            "income_range": "50000+",
+            "rate": 3.876
+          }
+        ],
+        "supplemental": "4.25"
+      },
+      {
+        "city": "Washington D.C.",
+        "state": "DC",
+        "tax_brackets": [
+          {
+            "income_range": "0-10000",
+            "rate": 4.0
+          },
+          {
+            "income_range": "10000-40000",
+            "rate": 6
+          },
+          {
+            "income_range": "$40000-60000",
+            "rate": 6.5
+          },
+          {
+            "income_range": "60000-250000",
+            "rate": 8.5
+          },
+          {
+            "income_range": "250000-500000",
+            "rate": 9.25
+          },
+          {
+            "income_range": "500000-1000000",
+            "rate": 9.75
+          },
+          {
+            "income_range": "1000000+",
+            "rate": 10.75
+          },
+        ],
+        "supplemental": "0.85"
+      },
+      {
+        "city": "Chicago",
+        "state": "Illinois",
+        "tax_brackets": "NA (just state and federal)"
+      }
+    ]
+  }
+  
