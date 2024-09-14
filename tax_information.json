@@ -20,6 +20,8 @@
             "rate": 0.03819
           }
         ],
+        "avg_food": 711,
+        "avg_rent": 5150,
         "supplemental": 0.0425
       },
       {
@@ -52,54 +54,72 @@
             "rate": 0.0925
           }
         ],
+        "avg_food": 700,
+        "avg_rent": 2631,
         "supplemental": 0.0085
       },
       {
         "city": "Chicago",
         "state": "Illinois",
         "tax_brackets": "NA",
+        "avg_food": 400,
+        "avg_rent": 1858,
         "supplemental": 0.0495
       },
       {
         "city": "San Francisco",
         "state": "California",
         "tax_brackets": "NA",
+        "avg_food": 762,
+        "avg_rent": 2891,
         "supplemental": 0.012
       },
       {
         "city": "Seattle",
         "state": "Washington",
         "tax_brackets": "NA",
+        "avg_food": 500,
+        "avg_rent": 2495,
         "supplemental":"NA"
       },
       {
         "city": "Austin",
         "state": "Texas",
         "tax_brackets": "NA",
+        "avg_food": 594,
+        "avg_rent": 1467,
         "supplemental": 0.020
       },
       {
         "city": "Boston",
         "state": "Massachussetts",
         "tax_brackets": "NA",
+        "avg_food": 739,
+        "avg_rent": 3484,
         "supplemental": 0.01074
       },
       {
         "city": "Los Angeles",
         "state": "California",
         "tax_brackets": "NA",
+        "avg_food": 715,
+        "avg_rent": 2159,
         "supplemental": 0.012
       },
       {
         "city": "Denver",
         "state": "Colorado",
         "tax_brackets": "NA",
+        "avg_food": 658,
+        "avg_rent": 1713,
         "supplemental": 0.0056
       },
       {
         "city": "Atlanta",
         "state": "Georgia",
         "tax_brackets": "NA",
+        "avg_food": 707,
+        "avg_rent": 1597,
         "supplemental": 0.014
       }
     ],
